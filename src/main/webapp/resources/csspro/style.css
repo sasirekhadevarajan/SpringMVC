@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+     position: relative;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-template-rows: 50px 50px;
+      background-color: #fff;
+      top:0%;
+    }
+  
+
+    .box {
+      background-color: #fff;
+      color:black;
+    }
+    .a {
+      grid-column: 1;
+      grid-row: 1;
+      background-color: #3b7e35;
+    }
+    .b {
+      grid-column: 1;
+      grid-row: 2;
+      height:50px;
+      background-color: black;
+    }
+    .c {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .login{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight:50px;
+      color: #fff;
+      margin-left:68%;
+  }
+   
+    .menu{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight:50px;
+        color: #fff;
+        margin-left:50%;
+    }
+   .menu a:hover{
+        cursor:pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #ddd;
+        color: black;
+        border-radius: 20px;
+    }
+    
+    .login a:hover{
+      cursor:pointer;
+      
+      color: black;
+  }
+ 
+#floatingLogo {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  height: 30px;
+  padding: 0;
+   background-color: black;
+}
+.error {
+	color: #ff0000;
+}
+
+.errorblock {
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
+

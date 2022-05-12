@@ -1,0 +1,79 @@
+/* links inside the menu bar of food items */
+.item{
+    margin-top: 40px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    margin-left: 3%;
+    font-size: 15px;
+    font-weight:50px; 
+}
+
+/* hover style for links inside the menu bar of food items */
+.item a:link, a:hover{
+    
+    font-family:Arial, Helvetica, sans-serif;
+      
+    text-decoration-color: black;
+}
+/* Style for Menu bar of food items */
+.barmenu{
+    height:50px;
+    width:900px;
+    margin-left: 20%;
+    background-color: rgb(80, 133, 80);
+}
+
+  /* The dropdown container */
+.dropdowndiv {
+    float: left;
+    color:white;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdowndiv .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0; 
+  }
+  
+ 
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+.dropdowndiv:hover .dropdown-content {
+    display: block;
+  }
+
+td img{
+    height:250px;
+    width:250px;
+}

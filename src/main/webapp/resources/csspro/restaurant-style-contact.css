@@ -1,0 +1,208 @@
+
+
+.contactbox{
+    width: 420px;
+    height: 560px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+}
+
+.addressbox{
+    width: 570px;
+    height: 420px;
+    background: #fff;
+    color: #000;
+    top: 35%;
+    margin-left: 15%;
+    font-size: medium;
+    position: absolute;
+    transform: translate(-35%, -50%);
+    box-sizing: border-box;
+}
+
+.hoursbox{
+    width: 465px;
+    height: 420px;
+    background: #fff;
+    color: #000;
+    top: 35%;
+    font-size: medium;
+    position: absolute;
+    transform: translate(130%, -50%);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar{
+    width: 150px;
+    height: 50px;
+    position:absolute;
+    top:-30px;
+    left: calc(35% - 30px);
+}
+
+h1 {
+    margin: 10%;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contactbox p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.contactbox input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.contactbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    margin-left: 10%;
+    outline: none;
+    height: 30px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.contactbox textarea
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    margin-left: 10%;
+    outline: none;
+    width: 80%;
+    height: 70px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.contactbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    margin-top: 10%;
+    gap: 50px;
+    margin-left: 10%;
+    height: 40px;
+    background: rgb(31, 167, 49);
+    color: #fff;
+    font-size:18px;
+    border-radius: 20px;
+}
+
+.contactbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.contactbox a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10%;
+    line-height: 20px;
+    color:darkgrey;
+}
+
+.contactbox a:hover
+{
+    color:#ffc107;
+}
+
+.contactbox p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+hr{
+    box-shadow: 0px 1px 0px rgb(231, 138, 16);
+}
+
+.container a:link, a:visited,  a:hover, a:active
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.addressbox a:link, a:visited,  a:hover, a:active
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.menu a:link, a:visited, a:active
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+ .menu a:hover
+ {
+     color:#000;
+ }
+
+.login a:link, a:visited, a:active
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+.login a:hover
+{
+    color:#000;
+}
+        
+.container input[type="submit"]
+{
+    border: none;
+    outline: none;
+    margin-top: 10%;
+    gap: 50px;
+    margin-left: 10%;
+    height: 40px;
+    background: rgb(31, 167, 49);
+    color: #fff;
+    font-size:18px;
+    border-radius: 20px;
+}
+
+.container input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.container input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    margin-left: 0%;
+    outline: none;
+    height: 30px;
+    width:250px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.container input[type="text"]::-webkit-input-placeholder 
+{
+    color:rgb(146, 177, 204);
+}

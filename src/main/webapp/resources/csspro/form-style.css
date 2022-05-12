@@ -1,0 +1,97 @@
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body{
+            background-image: url("/images/banner1.jpg");
+            background-size: cover;
+        }
+        input[type=text],input[type=password] {
+        width: 95%;
+        padding: 12px 20px;
+        margin: 8px 0;
+
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+
+        input [type=checkbox] {
+            margin-left: 10%;
+        }
+        input[type=submit],[type=button] {
+        background-color: #4CAF50;
+        color: white;
+        width:200px;
+        padding: 14px 20px; 
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+
+        input[type=submit],[type=button]:hover {
+        background-color: #45a049;
+        }
+
+        .divform {
+        border-radius: 5px;
+        margin-top:30%;
+        margin-left: 30%;
+        height:auto;
+        width:600px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        }
+        
+        .divformsignup {
+        border-radius: 5px;
+        margin-top:20px;
+        margin-left:0;
+        height:auto;
+        width:600px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        }
+        
+        h5{
+			font-family: Arial, Helvetica, sans-serif;
+			color:white;
+			padding-bottom:0px;
+		    margin-left: 30%;
+		}
+		h5 a{
+			color:white;
+			cursor: pointer;
+		}
+		h5 a:hover{
+			color: black;
+			text-decoration:none;
+		}
+.linkback{
+	margin-left:30%;
+}
+.linkback a {
+	color:white;
+	cursor:pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:medium;
+}
+.linkback a:hover{
+	color:white;
+	cursor:pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:medium;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.errorblock {
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}

@@ -1,0 +1,64 @@
+
+
+div.scrollmenu {
+  background-color: #333;
+  margin-left:17%;
+  width:1000px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top:30px;
+  
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+	display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color: #777;
+}
+
+
+th {
+  text-align: left;
+
+}
+
+.column-width{
+  width: 20%;
+}
+h4{
+  margin-top: 3%;
+  margin-left:25%;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
